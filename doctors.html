@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+    <title>OnePage Bootstrap Template - Index</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+  
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    .Button{
+position: relative;
+border:0;
+display: inline-block;
+width:8rem;
+height:1.8rem;
+cursor: pointer;
+outline: none;
+vertical-align: middle;}
+.Button .text{
+  position: absolute;
+  inset:0;
+  padding: 0.2rem 0;
+  margin-left:1.85rem;
+  color:black;
+  line-height: 1.40;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+}
+.Button .circle{
+  position:relative;
+  display: block;
+  margin:0;
+  width:1.8rem;
+  height:1.8rem;
+  background:#ffbe00;
+  border-radius: 0.9rem;
+  transition: all 0.4s ease-in-out;
+}
+ .Button .icon{ 
+position: absolute;
+top:0;
+bottom:0;
+width: 0.125rem;
+height: 0.125rem;
+margin:auto;
+background-color: white;
+}
+
+.Button .arrow{
+  left:0.50rem;
+  width:0.7rem;
+  height: 0.125rem;
+  background:none;
+  transform: all 0.4s ease-in-out;}
+.Button .arrow::before{
+    content: "";
+    position: absolute;
+    top:-0.3rem;
+    right:0.0625rem;
+    width:0.625rem;
+    height: 0.625rem;
+    border-top:0.125rem solid white ;
+    border-right: 0.125rem solid white;
+    transform: rotate(45deg);
+
+  }
+
+
+.Button:hover .circle {
+  width: 100%;
+}
+  .Button:hover span{
+  background: white;
+  transform: translateX(0.5rem);
+}
+
+.Button:hover text{
+  color:white;
+}
+
+  </style>
+  </head>
+  
+  <body>
+  
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+  
+        <h1 class="logo"><a href="index.html">Doctors</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="homepage.html">Home</a></li>
+                <li><a class="nav-link scrollto" href="#aboutus">About</a></li>
+                <li><a class="nav-link scrollto" href="doctors.html">doctors</a></li>
+                <li><a class="nav-link scrollto" href="services.html">services</a></li>
+                <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+                <li><a class="nav-link scrollto" href="registration.html">registration</a></li>
+                <li><a class="getstarted scrollto" href="doctors.html">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+  
+      </div>
+    </header>
+  
+   <section id="team" class="team section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+  
+        <div class="section-title">
+          <h2>Doctors</h2>
+          <p>Our scientific finder tool simplifies the process and gets you in touch with a doctor that meets your specific needs.You may select by image any of these doctors to see their proffesionnel biography.</p>
+        </div>
+  
+        <div class="row">
+  
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch   aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+            <a href="hichamkhoury.html" id="hicham">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-1.jpeg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="http//www.twitter.com"><i class="bi bi-twitter"></i></a>
+                    <a href="http//www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a href="http//www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    <a href="http//www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info w-100 d-flex flex-column justify-content-evenly align-items-start ">
+                  <h4>Hicham Khoury</h4>
+                  <span>Public health doctor</span>
+                  <div class="Button w-75 mt-2">
+                    <div class="circle">
+                      <span class="icon arrow"></span>
+                    </div>
+                    <text class="text"><a style="text-decoration: none;" href="registration.html"> book an appointment</a></text>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <a href="georgettemhanna.html" id="georgette">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-2.jpeg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="http//www.twitter.com"><i class="bi bi-twitter"></i></a>
+                    <a href="http//www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a href="http//www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    <a href="http//www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info  w-100 d-flex flex-column justify-content-evenly align-items-start ">
+                  <h4>Georgette Mhanna</h4>
+                  <span>Dermatologist</span>
+                  <div class="Button w-75 mt-2">
+                    <div class="circle">
+                      <span class="icon arrow"></span>
+                     
+                    </div>
+                    <text class="text"><a style="text-decoration: none;" href="registration.html"> book an appointment</a></text>
+                  </div>
+                </div>
+              </div>
+            </a>           
+          </div>
+  
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <a href="charbelrayes.html" id="charbel">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-3.jpeg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="http//www.twitter.com"><i class="bi bi-twitter"></i></a>
+                    <a href="http//www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a href="http//www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    <a href="http//www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info  w-100 d-flex flex-column justify-content-evenly align-items-start ">
+                  <h4>Charbel Rayes</h4>
+                  <span>dentist</span>
+                  <div class="Button w-75 mt-2">
+                    <div class="circle">
+                      <span class="icon arrow"></span>
+                     
+                    </div>
+                    <text class="text"> <a  href="registration.html"> book an appointment</a></text>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column justify-content-evenly align-items-start aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <a href="mahabitar.html" id="maha">
+              <div class="member">
+                <div class="member-img">
+                  <img src="assets/img/team/team-4.jpeg" class="img-fluid" alt="">
+                  <div class="social">
+                    <a href="http//www.twitter.com"><i class="bi bi-twitter"></i></a>
+                    <a href="http//www.facebook.com"><i class="bi bi-facebook"></i></a>
+                    <a href="http//www.instagram.com"><i class="bi bi-instagram"></i></a>
+                    <a href="http//www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info w-100 d-flex flex-column justify-content-evenly align-items-start ">
+                  <h4>Maha Bitar</h4>
+                  <span>Orthopedic</span>
+                  <div class="Button w-75 mt-2">
+                    <div class="circle">
+                      <span class="icon arrow"></span>
+                     
+                    </div>
+                    <text class="text"> <a href="registration.html"> book an appointment </a></text>
+                  </div>
+                </div>
+             
+              </div>
+            </a>
+           
+          </div>
+   
+        </div>
+  
+      </div>
+    </section>
+  </body>
+</html>
+
